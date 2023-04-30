@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Changa One', cursive;
+}
+header{
+    margin:10px;
+    height: 20vh;
+    
+
+}
+header ul {
+    display: flex;
+    align-items: center;
+    
+    }
+header ul  li{
+    list-style-type: none;
+    align-items: center;
+    margin-right:5%;
+    
+    
+}
+.logo{
+    margin-right: 15%;
+}
+header ul button{
+    border-radius: 5%;
+    border-color:transparent;
+    padding:9px 1%;
+    color: white;
+    background-color: red;
+    border:none;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 28%;
+}
+a{
+    color:gold;
+    text-decoration: none;
+    font-weight: 700;
+}
+.hero{
+    color: gold;
+    font-weight: 900;
+    font-size: larger;
+}
+main h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    font-size: 60px;
+    margin:8% 8% 2% 8%;
+    }
+.menuread button{
+    color:white ;
+    background-color: red;
+    border: none;
+    border-radius: 5%;
+    padding:1%;
+    }
+.menuread{
+    align-items: center;
+    margin-left: 50%;
+}
+footer{
+    margin-left: 85%;
+    
+}
+footer img{
+    width:150px;
+    filter: brightness();
+}
